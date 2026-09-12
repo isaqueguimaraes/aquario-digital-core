@@ -30,7 +30,18 @@ develop  ───►  stage  ───►  main
    │             │            └── 🟢 ✅ Produção Estável
    │             └─────────────── 🟡 🧪 Homologação & QA
    └───────────────────────────── 🔴 💻 Desenvolvimento
-✅ Parâmetros VerificadosParâmetroFaixa IdealMensagem de AlertapH6.8 – 7.6  ALERTA QA: Nível de pH fora do limite ideal!  Temperatura22.0 °C – 28.0 °C  ALERTA QA: Temperatura fora do limite seguro!  ⚙️ Estrutura do Código🧬 Classe ControleQualidadeAgua[cite: 3]MétodoParâmetrosRetornoDescrição__init__ph: float, temperatura: floatNoneConstrutor que inicializa a instância com os parâmetros do aquário[cite: 3].verificar_parametrosNenhumboolValida as métricas e exibe o status no console (True para OK, False para Alerta)[cite: 3].📁 Estrutura do RepositórioPlaintextaquario-digital-core/
+
+```
+### ✅ Parâmetros Verificados
+```
+ParâmetroFaixa IdealMensagem de AlertapH6.8 – 7.6  ALERTA QA: Nível de pH fora do limite ideal!  Temperatura22.0 °C – 28.0 °C  ALERTA QA: Temperatura fora do limite seguro!
+
+````
+### ⚙️ Estrutura do Código🧬 
+
+Classe ControleQualidadeAgua[cite: 3]MétodoParâmetrosRetornoDescrição__init__ph: float, temperatura: floatNoneConstrutor que inicializa a instância com os parâmetros do aquário[cite: 3].verificar_parametrosNenhumboolValida as métricas e exibe o status no console (True para OK, False para Alerta)[cite: 3].
+
+📁 Estrutura do RepositórioPlaintextaquario-digital-core/
 ├── 📄 .gitignore
 ├── 📄 LICENSE
 ├── 🐍 controle_qualidade_agua.py    # Módulo principal de monitoramento
